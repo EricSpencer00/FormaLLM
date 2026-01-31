@@ -1,0 +1,71 @@
+[
+  {
+    "model": "DieHard",
+    "few_shot": {
+      "approach": "few-shot",
+      "num_examples": 3,
+      "generation_time": 24.818278,
+      "success": false,
+      "spec_length": 873,
+      "validation_output": "\n****** SANY2 Version 2.1 created 24 February 2014\n\nParsing file /tmp/tmpwxzli8dq/DieHard.tla\n***Parse Error***\nIll-structured fairness expression at line 53, column 4\n\nResidual stack trace follows:\nExtendableExpr starting at line 53, column 4.\nExpression starting at line 53, column 4.\nJunction Item starting at line 53, column 1.\nAND-OR Junction starting at line 51, column 1.\nExtendableExpr starting at line 51, column 1.\n\n\nFatal errors while parsing TLA+ spec in file /tmp/tmpwxzli8dq/DieHard.tla"
+    },
+    "cove": {
+      "approach": "cove",
+      "generation_time": 26.72894,
+      "verification_time": 27.268054,
+      "revision_time": 27.08845,
+      "total_time": 81.085444,
+      "success": true,
+      "spec_length": 1639,
+      "verification_length": 2467,
+      "validation_output": "\n****** SANY2 Version 2.1 created 24 February 2014\n\nParsing file /tmp/tmp7jz5kd66/DieHard.tla\nParsing file /tmp/Integers.tla\nParsing file /tmp/Naturals.tla\nSemantic processing of module Naturals\nSemantic processing of module Integers\nSemantic processing of module DieHard\n"
+    },
+    "winner": "cove"
+  },
+  {
+    "model": "Majority",
+    "few_shot": {
+      "approach": "few-shot",
+      "num_examples": 3,
+      "generation_time": 22.868233,
+      "success": false,
+      "spec_length": 1363,
+      "validation_output": "\n****** SANY2 Version 2.1 created 24 February 2014\n\nParsing file /tmp/tmpjpvaa1fv/Majority.tla\n***Parse Error***\n\n  Precedence conflict between ops => in block line 60, col 14 to line 60, col 15 of module Majority and =>.\n\nResidual stack trace follows:\nExtendableExpr starting at line 60, column 17.\nExtendableExpr starting at line 60, column 9.\nExpression starting at line 60, column 9.\nTheorem starting at line 60, column 1.\nModule body starting at line 5, column 1.\n\n\nFatal errors while parsing TL"
+    },
+    "cove": {
+      "approach": "cove",
+      "generation_time": 24.04396,
+      "verification_time": 49.072843,
+      "revision_time": 26.714944,
+      "total_time": 99.83174700000001,
+      "success": false,
+      "spec_length": 1616,
+      "verification_length": 3995,
+      "validation_output": "\n****** SANY2 Version 2.1 created 24 February 2014\n\nParsing file /tmp/tmpis9paslg/Majority.tla\nParsing file /tmp/Integers.tla\nParsing file /tmp/Sequences.tla\nParsing file /tmp/FiniteSets.tla\nParsing file /tmp/Naturals.tla\nSemantic processing of module Naturals\nSemantic processing of module Integers\nSemantic processing of module Sequences\nSemantic processing of module FiniteSets\nSemantic processing of module Majority\nSemantic errors:\n\n*** Errors: 3\n\nline 12, col 36 to line 12, col 36 of module Ma"
+    },
+    "winner": "neither"
+  },
+  {
+    "model": "TwoPhase",
+    "few_shot": {
+      "approach": "few-shot",
+      "num_examples": 3,
+      "generation_time": 13.162304,
+      "success": false,
+      "spec_length": 947,
+      "validation_output": "\n****** SANY2 Version 2.1 created 24 February 2014\n\nParsing file /tmp/tmpkhu0mfiy/TwoPhase.tla\nParsing file /tmp/Integers.tla\nParsing file /tmp/FiniteSets.tla\nParsing file /tmp/TLC.tla\nParsing file /tmp/Naturals.tla\nParsing file /tmp/Sequences.tla\nSemantic processing of module Naturals\nSemantic processing of module Integers\nSemantic processing of module Sequences\nSemantic processing of module FiniteSets\nSemantic processing of module TLC\nSemantic processing of module TwoPhase\nSemantic errors:\n\n**"
+    },
+    "cove": {
+      "approach": "cove",
+      "generation_time": 7.079625,
+      "verification_time": 26.658097,
+      "revision_time": 6.159644,
+      "total_time": 39.897366000000005,
+      "success": false,
+      "spec_length": 377,
+      "verification_length": 2706,
+      "validation_output": "\n****** SANY2 Version 2.1 created 24 February 2014\n\nParsing file /tmp/tmp1etagsw3/TwoPhase.tla\nParsing file /tmp/Integers.tla\nParsing file /tmp/Sequences.tla\nParsing file /tmp/Naturals.tla\nSemantic processing of module Naturals\nSemantic processing of module Integers\nSemantic processing of module Sequences\nSemantic processing of module TwoPhase\nSemantic errors:\n\n*** Errors: 2\n\nline 17, col 6 to line 17, col 11 of module TwoPhase\n\nUnknown operator: `TYPEOK'.\n\n\nline 18, col 6 to line 18, col 9 of m"
+    },
+    "winner": "neither"
+  }
+]
